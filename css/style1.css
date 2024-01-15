@@ -649,7 +649,7 @@ body {
   
   @font-face {
     font-family: 'Bruno Ace-Regular';
-    src: url('BrunoAce-Regular.ttf') format('truetype');
+    src: url('../BrunoAce-Regular.ttf') format('truetype');
   }
 
 
