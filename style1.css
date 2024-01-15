@@ -1,0 +1,667 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.frame {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .frame .div {
+    background-color: #000000;
+    width: 1300px;
+    height: 720px;
+    position: relative;
+  }
+  
+  .frame .overlap {
+    position: absolute;
+    width: 241px;
+    height: 134px;
+    top: 267px;
+    left: 162px;
+  }
+  
+  .frame .p {
+    position: absolute;
+    width: 129px;
+    height: 134px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 129px;
+    top: -1px;
+    left: 0;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+
+  
+  .frame .component {
+    width: 124px;
+    top: 31px;
+    left: 117px;
+    position: absolute;
+    height: 91px;
+    overflow: hidden;
+  }
+  
+  .frame .group {
+    position: relative;
+    width: 141px;
+    height: 591px;
+    top: -32px;
+  }
+
+    /* for first 'O' */
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 127px;
+    top: 0;
+    left: 2px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-3 {
+    top: 401px;
+    left: 2px;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-4 {
+    top: 501px;
+    left: 0;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-5 {
+    top: 301px;
+    left: 0;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-6 {
+    top: 201px;
+    left: 0;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-7 {
+    top: 101px;
+    left: 1px;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+
+  @keyframes scroll1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-85%); }
+  }
+  
+  .frame .text-wrapper-2,
+  .frame .text-wrapper-3,
+  .frame .text-wrapper-4,
+  .frame .text-wrapper-5,
+  .frame .text-wrapper-6,
+  .frame .text-wrapper-7 {
+      /* existing styles */
+      animation: scroll1 3000ms linear 1000ms;
+      animation-fill-mode: forwards;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* for text 'R' */
+
+  .frame .group-wrapper {
+    width: 119px;
+    top: 298px;
+    left: 403px;
+    position: absolute;
+    height: 91px;
+    overflow: hidden;
+  }
+  
+  .frame .overlap-group-wrapper {
+    position: relative;
+    width: 129px;
+    height: 530px;
+    top: -427px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 119px;
+    height: 530px;
+  }
+  
+  .frame .text-wrapper-8 {
+    top: 0;
+    position: absolute;
+    width: 119px;
+    left: 0;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-9 {
+    top: 396px;
+    position: absolute;
+    width: 119px;
+    left: 0;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-10 {
+    top: 296px;
+    position: absolute;
+    width: 119px;
+    left: 0;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-11 {
+    top: 196px;
+    position: absolute;
+    width: 119px;
+    left: 0;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-12 {
+    top: 97px;
+    position: absolute;
+    width: 119px;
+    left: 0;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  @keyframes scroll2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(75%); }
+  }
+  
+  .frame .text-wrapper-8,
+  .frame .text-wrapper-9,
+  .frame .text-wrapper-10,
+  .frame .text-wrapper-11,
+  .frame .text-wrapper-12 {
+      /* existing styles */
+      animation: scroll2 4000ms linear 1000ms;
+      animation-fill-mode: forwards;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* for second last 'O' */
+ 
+  .frame .text-wrapper-13 {
+    position: absolute;
+    width: 127px;
+    top: 0;
+    left: 2px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-14 {
+    top: 401px;
+    left: 2px;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-15 {
+    top: 501px;
+    left: 0;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-16 {
+    top: 301px;
+    left: 0;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-17 {
+    top: 201px;
+    left: 0;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-18 {
+    top: 101px;
+    left: 1px;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+
+  @keyframes scroll3 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-195%); }
+  }
+  
+  .frame .text-wrapper-13,
+  .frame .text-wrapper-14,
+  .frame .text-wrapper-15,
+  .frame .text-wrapper-16,
+  .frame .text-wrapper-17,
+  .frame .text-wrapper-18 {
+      /* existing styles */
+      animation: scroll3 4000ms linear 1000ms;
+      animation-fill-mode: forwards;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* for text 'TF' */
+  .frame .text-wrapper-26 {
+    position: absolute;
+    width: 215px;
+    top: -1px;
+    left: 0;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+
+
+
+
+
+
+
+  
+  .frame .overlap-2 {
+    position: absolute;
+    width: 472px;
+    height: 151px;
+    top: 267px;
+    left: 522px;
+  }
+  
+  .frame .TF {
+    position: absolute;
+    width: 215px;
+    height: 149px;
+    top: 2px;
+    left: 0;
+  }
+  
+
+    /* for text 'LI' */
+  .frame .text-wrapper-25 {
+    position: absolute;
+    width: 215px;
+    top: -1px;
+    left: 0;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .div-wrapper {
+    width: 124px;
+    top: 34px;
+    left: 213px;
+    position: absolute;
+    height: 91px;
+    overflow: hidden;
+  }
+  
+  .frame .LI {
+    position: absolute;
+    width: 138px;
+    height: 134px;
+    top: 0;
+    left: 334px;
+  }
+  
+
+
+
+  /* for last 'O' */
+  .frame .text-wrapper-19 {
+    position: absolute;
+    width: 138px;
+    top: -1px;
+    left: 0;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .component-2 {
+    width: 124px;
+    top: 298px;
+    left: 994px;
+    position: absolute;
+    height: 91px;
+    overflow: hidden;
+  }
+  
+  .frame .group-2 {
+    position: relative;
+    width: 141px;
+    height: 654px;
+    top: -590px;
+  }
+  
+  .frame .text-wrapper-20 {
+    top: 422px;
+    left: 2px;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-21 {
+    top: 559px;
+    left: 1px;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-22 {
+    top: 316px;
+    left: 0;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-23 {
+    top: 211px;
+    left: 0;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-24 {
+    top: 106px;
+    left: 1px;
+    position: absolute;
+    width: 127px;
+    font-family: "Bruno Ace-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  @keyframes scroll4 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(190%); }
+  }
+  
+  .frame .text-wrapper-19,
+  .frame .text-wrapper-20,
+  .frame .text-wrapper-21,
+  .frame .text-wrapper-22,
+  .frame .text-wrapper-23,
+  .frame .text-wrapper-24 {
+      /* existing styles */
+      animation: scroll4 4000ms linear 1000ms;
+      animation-fill-mode: forwards;
+  }
+
+
+
+
+
+
+
+
+  
+  @font-face {
+    font-family: 'Bruno Ace-Regular';
+    src: url('BrunoAce-Regular.ttf') format('truetype');
+  }
+
+
+/* Animation for zoomin and fadeout */
+  @keyframes zoomFadeOut {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(5); opacity: 0.3; }
+    100% { transform: scale(10); opacity: 0; }
+  }
+  
+.frame {
+      animation: zoomFadeOut 4000ms linear 7000ms;
+      animation-fill-mode: forwards;
+      background-color: black;
+  }
