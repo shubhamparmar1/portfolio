@@ -1,7 +1,7 @@
 #  Welcome to my Portfolio!
 
 Welcome to the repository for my personal portfolio website! This project showcases my web development projects and skills.
-The portfolio website is hosted on GitHub Pages at [https://shubhamparmar1.github.io/portfolio/home.html].
+The portfolio website is hosted on GitHub Pages at [https://shubhamparmar1.github.io/portfolio/portfolio.html].
 
 ## Website Content
 
